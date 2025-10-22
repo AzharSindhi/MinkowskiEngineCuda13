@@ -1,0 +1,220 @@
+WARNING: Skipping MinkowskiEngine as it is not installed.
+/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: MIT License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+--------------------------------
+| CUDA compilation set         |
+--------------------------------
+
+Using BLAS=openblas
+Using /home/ez48awud/miniconda3/envs/lidiff_hpc/bin/x86_64-conda-linux-gnu-c++ for c++ compilation
+running install
+/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:90: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        By 2025-Oct-31, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running build
+running build_py
+creating build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiConvolution.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiUnion.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiOps.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiInterpolation.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiPruning.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiCommon.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiCoordinateManager.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiTensorField.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiNormalization.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiChannelwiseConvolution.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiFunctional.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/sparse_matrix_functions.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiPooling.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiNonlinearity.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/__init__.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiNetwork.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiTensor.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiBroadcast.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiSparseTensor.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/MinkowskiKernelGenerator.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+copying MinkowskiEngine/diagnostics.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine
+creating build/lib.linux-x86_64-cpython-310/MinkowskiEngine/utils
+copying MinkowskiEngine/utils/coords.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine/utils
+copying MinkowskiEngine/utils/quantization.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine/utils
+copying MinkowskiEngine/utils/__init__.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine/utils
+copying MinkowskiEngine/utils/init.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine/utils
+copying MinkowskiEngine/utils/collation.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine/utils
+copying MinkowskiEngine/utils/summary.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine/utils
+copying MinkowskiEngine/utils/gradcheck.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine/utils
+creating build/lib.linux-x86_64-cpython-310/MinkowskiEngine/modules
+copying MinkowskiEngine/modules/__init__.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine/modules
+copying MinkowskiEngine/modules/senet_block.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine/modules
+copying MinkowskiEngine/modules/resnet_block.py -> build/lib.linux-x86_64-cpython-310/MinkowskiEngine/modules
+running build_ext
+W1021 19:31:16.513000 1384927 site-packages/torch/utils/cpp_extension.py:531] There are no /home/ez48awud/miniconda3/envs/lidiff_hpc/bin/x86_64-conda-linux-gnu-c++ version bounds defined for CUDA version 13.0
+building 'MinkowskiEngineBackend._C' extension
+creating /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src
+creating /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/pybind
+[1/21] /home/ez48awud/miniconda3/envs/lidiff_hpc/bin/nvcc --generate-dependencies-with-compile --dependency-output /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/broadcast_kernel.o.d -DNVTX_DISABLE -I/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/include -I/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/ez48awud/miniconda3/envs/lidiff_hpc/include -I/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src -I/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/3rdparty -I/home/ez48awud/miniconda3/envs/lidiff_hpc/include/python3.10 -c -c /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/broadcast_kernel.cu -o /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/broadcast_kernel.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options ''"'"'-fPIC'"'"'' --expt-relaxed-constexpr --expt-extended-lambda -O3 -Xcompiler=-fno-gnu-unique -Xcompiler -fdiagnostics-color=always -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=_C -gencode=arch=compute_100,code=sm_100 -gencode=arch=compute_103,code=sm_103 -gencode=arch=compute_110,code=sm_110 -gencode=arch=compute_120,code=sm_120 -gencode=arch=compute_121,code=compute_121 -gencode=arch=compute_121,code=sm_121 -gencode=arch=compute_75,code=sm_75 -gencode=arch=compute_80,code=sm_80 -gencode=arch=compute_86,code=sm_86 -gencode=arch=compute_89,code=sm_89 -gencode=arch=compute_90,code=sm_90 -ccbin /home/ez48awud/miniconda3/envs/lidiff_hpc/bin/x86_64-conda-linux-gnu-c++ -std=c++17
+FAILED: [code=2] /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/broadcast_kernel.o 
+/home/ez48awud/miniconda3/envs/lidiff_hpc/bin/nvcc --generate-dependencies-with-compile --dependency-output /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/broadcast_kernel.o.d -DNVTX_DISABLE -I/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/include -I/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/ez48awud/miniconda3/envs/lidiff_hpc/include -I/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src -I/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/3rdparty -I/home/ez48awud/miniconda3/envs/lidiff_hpc/include/python3.10 -c -c /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/broadcast_kernel.cu -o /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/broadcast_kernel.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options ''"'"'-fPIC'"'"'' --expt-relaxed-constexpr --expt-extended-lambda -O3 -Xcompiler=-fno-gnu-unique -Xcompiler -fdiagnostics-color=always -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=_C -gencode=arch=compute_100,code=sm_100 -gencode=arch=compute_103,code=sm_103 -gencode=arch=compute_110,code=sm_110 -gencode=arch=compute_120,code=sm_120 -gencode=arch=compute_121,code=compute_121 -gencode=arch=compute_121,code=sm_121 -gencode=arch=compute_75,code=sm_75 -gencode=arch=compute_80,code=sm_80 -gencode=arch=compute_86,code=sm_86 -gencode=arch=compute_89,code=sm_89 -gencode=arch=compute_90,code=sm_90 -ccbin /home/ez48awud/miniconda3/envs/lidiff_hpc/bin/x86_64-conda-linux-gnu-c++ -std=c++17
+/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/coordinate_map_functors.cuh(111): error: namespace "thrust" has no member class "unary_function"
+      : public thrust::unary_function<uint32_t,
+                       ^
+
+/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/coordinate_map_functors.cuh(111): error: class or struct definition is missing
+      : public thrust::unary_function<uint32_t,
+                                     ^
+
+/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/coordinate_map_functors.cuh(135): warning #12-D: parsing restarts here after previous syntax error
+  };
+   ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+2 errors detected in the compilation of "/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/broadcast_kernel.cu".
+[2/21] /home/ez48awud/miniconda3/envs/lidiff_hpc/bin/nvcc --generate-dependencies-with-compile --dependency-output /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_kernel.o.d -DNVTX_DISABLE -I/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/include -I/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/ez48awud/miniconda3/envs/lidiff_hpc/include -I/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src -I/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/3rdparty -I/home/ez48awud/miniconda3/envs/lidiff_hpc/include/python3.10 -c -c /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_kernel.cu -o /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_kernel.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options ''"'"'-fPIC'"'"'' --expt-relaxed-constexpr --expt-extended-lambda -O3 -Xcompiler=-fno-gnu-unique -Xcompiler -fdiagnostics-color=always -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=_C -gencode=arch=compute_100,code=sm_100 -gencode=arch=compute_103,code=sm_103 -gencode=arch=compute_110,code=sm_110 -gencode=arch=compute_120,code=sm_120 -gencode=arch=compute_121,code=compute_121 -gencode=arch=compute_121,code=sm_121 -gencode=arch=compute_75,code=sm_75 -gencode=arch=compute_80,code=sm_80 -gencode=arch=compute_86,code=sm_86 -gencode=arch=compute_89,code=sm_89 -gencode=arch=compute_90,code=sm_90 -ccbin /home/ez48awud/miniconda3/envs/lidiff_hpc/bin/x86_64-conda-linux-gnu-c++ -std=c++17
+FAILED: [code=2] /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_kernel.o 
+/home/ez48awud/miniconda3/envs/lidiff_hpc/bin/nvcc --generate-dependencies-with-compile --dependency-output /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_kernel.o.d -DNVTX_DISABLE -I/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/include -I/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/ez48awud/miniconda3/envs/lidiff_hpc/include -I/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src -I/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/3rdparty -I/home/ez48awud/miniconda3/envs/lidiff_hpc/include/python3.10 -c -c /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_kernel.cu -o /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_kernel.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options ''"'"'-fPIC'"'"'' --expt-relaxed-constexpr --expt-extended-lambda -O3 -Xcompiler=-fno-gnu-unique -Xcompiler -fdiagnostics-color=always -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=_C -gencode=arch=compute_100,code=sm_100 -gencode=arch=compute_103,code=sm_103 -gencode=arch=compute_110,code=sm_110 -gencode=arch=compute_120,code=sm_120 -gencode=arch=compute_121,code=compute_121 -gencode=arch=compute_121,code=sm_121 -gencode=arch=compute_75,code=sm_75 -gencode=arch=compute_80,code=sm_80 -gencode=arch=compute_86,code=sm_86 -gencode=arch=compute_89,code=sm_89 -gencode=arch=compute_90,code=sm_90 -ccbin /home/ez48awud/miniconda3/envs/lidiff_hpc/bin/x86_64-conda-linux-gnu-c++ -std=c++17
+/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/coordinate_map_functors.cuh(111): error: namespace "thrust" has no member class "unary_function"
+      : public thrust::unary_function<uint32_t,
+                       ^
+
+/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/coordinate_map_functors.cuh(111): error: class or struct definition is missing
+      : public thrust::unary_function<uint32_t,
+                                     ^
+
+/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/coordinate_map_functors.cuh(135): warning #12-D: parsing restarts here after previous syntax error
+  };
+   ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_kernel.cu(334): warning #68-D: integer conversion resulted in a change of sign
+    size_t n_active_in_volume, shared_mem_size = -1;
+                                                 ^
+
+/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_kernel.cu(573): warning #68-D: integer conversion resulted in a change of sign
+    size_t n_active_in_volume, shared_mem_size = -1;
+                                                 ^
+
+2 errors detected in the compilation of "/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_kernel.cu".
+[3/21] /home/ez48awud/miniconda3/envs/lidiff_hpc/bin/nvcc --generate-dependencies-with-compile --dependency-output /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_gpu.o.d -DNVTX_DISABLE -I/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/include -I/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/ez48awud/miniconda3/envs/lidiff_hpc/include -I/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src -I/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/3rdparty -I/home/ez48awud/miniconda3/envs/lidiff_hpc/include/python3.10 -c -c /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_gpu.cu -o /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_gpu.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options ''"'"'-fPIC'"'"'' --expt-relaxed-constexpr --expt-extended-lambda -O3 -Xcompiler=-fno-gnu-unique -Xcompiler -fdiagnostics-color=always -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=_C -gencode=arch=compute_100,code=sm_100 -gencode=arch=compute_103,code=sm_103 -gencode=arch=compute_110,code=sm_110 -gencode=arch=compute_120,code=sm_120 -gencode=arch=compute_121,code=compute_121 -gencode=arch=compute_121,code=sm_121 -gencode=arch=compute_75,code=sm_75 -gencode=arch=compute_80,code=sm_80 -gencode=arch=compute_86,code=sm_86 -gencode=arch=compute_89,code=sm_89 -gencode=arch=compute_90,code=sm_90 -ccbin /home/ez48awud/miniconda3/envs/lidiff_hpc/bin/x86_64-conda-linux-gnu-c++ -std=c++17
+FAILED: [code=2] /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_gpu.o 
+/home/ez48awud/miniconda3/envs/lidiff_hpc/bin/nvcc --generate-dependencies-with-compile --dependency-output /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_gpu.o.d -DNVTX_DISABLE -I/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/include -I/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/ez48awud/miniconda3/envs/lidiff_hpc/include -I/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src -I/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/3rdparty -I/home/ez48awud/miniconda3/envs/lidiff_hpc/include/python3.10 -c -c /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_gpu.cu -o /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_gpu.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options ''"'"'-fPIC'"'"'' --expt-relaxed-constexpr --expt-extended-lambda -O3 -Xcompiler=-fno-gnu-unique -Xcompiler -fdiagnostics-color=always -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=_C -gencode=arch=compute_100,code=sm_100 -gencode=arch=compute_103,code=sm_103 -gencode=arch=compute_110,code=sm_110 -gencode=arch=compute_120,code=sm_120 -gencode=arch=compute_121,code=compute_121 -gencode=arch=compute_121,code=sm_121 -gencode=arch=compute_75,code=sm_75 -gencode=arch=compute_80,code=sm_80 -gencode=arch=compute_86,code=sm_86 -gencode=arch=compute_89,code=sm_89 -gencode=arch=compute_90,code=sm_90 -ccbin /home/ez48awud/miniconda3/envs/lidiff_hpc/bin/x86_64-conda-linux-gnu-c++ -std=c++17
+/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/coordinate_map_functors.cuh(111): error: namespace "thrust" has no member class "unary_function"
+      : public thrust::unary_function<uint32_t,
+                       ^
+
+/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/coordinate_map_functors.cuh(111): error: class or struct definition is missing
+      : public thrust::unary_function<uint32_t,
+                                     ^
+
+/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/coordinate_map_functors.cuh(135): warning #12-D: parsing restarts here after previous syntax error
+  };
+   ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+2 errors detected in the compilation of "/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/convolution_gpu.cu".
+[4/21] /home/ez48awud/miniconda3/envs/lidiff_hpc/bin/nvcc --generate-dependencies-with-compile --dependency-output /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/broadcast_gpu.o.d -DNVTX_DISABLE -I/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/include -I/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/ez48awud/miniconda3/envs/lidiff_hpc/include -I/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src -I/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/3rdparty -I/home/ez48awud/miniconda3/envs/lidiff_hpc/include/python3.10 -c -c /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/broadcast_gpu.cu -o /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/broadcast_gpu.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options ''"'"'-fPIC'"'"'' --expt-relaxed-constexpr --expt-extended-lambda -O3 -Xcompiler=-fno-gnu-unique -Xcompiler -fdiagnostics-color=always -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=_C -gencode=arch=compute_100,code=sm_100 -gencode=arch=compute_103,code=sm_103 -gencode=arch=compute_110,code=sm_110 -gencode=arch=compute_120,code=sm_120 -gencode=arch=compute_121,code=compute_121 -gencode=arch=compute_121,code=sm_121 -gencode=arch=compute_75,code=sm_75 -gencode=arch=compute_80,code=sm_80 -gencode=arch=compute_86,code=sm_86 -gencode=arch=compute_89,code=sm_89 -gencode=arch=compute_90,code=sm_90 -ccbin /home/ez48awud/miniconda3/envs/lidiff_hpc/bin/x86_64-conda-linux-gnu-c++ -std=c++17
+FAILED: [code=2] /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/broadcast_gpu.o 
+/home/ez48awud/miniconda3/envs/lidiff_hpc/bin/nvcc --generate-dependencies-with-compile --dependency-output /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/broadcast_gpu.o.d -DNVTX_DISABLE -I/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/include -I/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/ez48awud/miniconda3/envs/lidiff_hpc/include -I/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src -I/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/3rdparty -I/home/ez48awud/miniconda3/envs/lidiff_hpc/include/python3.10 -c -c /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/broadcast_gpu.cu -o /home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/build/temp.linux-x86_64-cpython-310/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/broadcast_gpu.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options ''"'"'-fPIC'"'"'' --expt-relaxed-constexpr --expt-extended-lambda -O3 -Xcompiler=-fno-gnu-unique -Xcompiler -fdiagnostics-color=always -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=_C -gencode=arch=compute_100,code=sm_100 -gencode=arch=compute_103,code=sm_103 -gencode=arch=compute_110,code=sm_110 -gencode=arch=compute_120,code=sm_120 -gencode=arch=compute_121,code=compute_121 -gencode=arch=compute_121,code=sm_121 -gencode=arch=compute_75,code=sm_75 -gencode=arch=compute_80,code=sm_80 -gencode=arch=compute_86,code=sm_86 -gencode=arch=compute_89,code=sm_89 -gencode=arch=compute_90,code=sm_90 -ccbin /home/ez48awud/miniconda3/envs/lidiff_hpc/bin/x86_64-conda-linux-gnu-c++ -std=c++17
+/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/coordinate_map_functors.cuh(111): error: namespace "thrust" has no member class "unary_function"
+      : public thrust::unary_function<uint32_t,
+                       ^
+
+/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/coordinate_map_functors.cuh(111): error: class or struct definition is missing
+      : public thrust::unary_function<uint32_t,
+                                     ^
+
+/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/coordinate_map_functors.cuh(135): warning #12-D: parsing restarts here after previous syntax error
+  };
+   ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+2 errors detected in the compilation of "/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/src/broadcast_gpu.cu".
+ninja: build stopped: subcommand failed.
+Traceback (most recent call last):
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/utils/cpp_extension.py", line 2597, in _run_ninja_build
+    subprocess.run(
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['ninja', '-v', '-j', '4']' returned non-zero exit status 2.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ez48awud/Documents/implementations/LiDiff/MinkowskiEngine/setup.py", line 321, in <module>
+    setup(
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/__init__.py", line 115, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+    return run_commands(dist)
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+    dist.run_commands()
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+    self.run_command(cmd)
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/dist.py", line 1102, in run_command
+    super().run_command(command)
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+    cmd_obj.run()
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/_distutils/command/install.py", line 689, in run
+    self.run_command('build')
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 357, in run_command
+    self.distribution.run_command(command)
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/dist.py", line 1102, in run_command
+    super().run_command(command)
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+    cmd_obj.run()
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/_distutils/command/build.py", line 135, in run
+    self.run_command(cmd_name)
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 357, in run_command
+    self.distribution.run_command(command)
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/dist.py", line 1102, in run_command
+    super().run_command(command)
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+    cmd_obj.run()
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/command/build_ext.py", line 96, in run
+    _build_ext.run(self)
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 368, in run
+    self.build_extensions()
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/utils/cpp_extension.py", line 1082, in build_extensions
+    build_ext.build_extensions(self)
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 484, in build_extensions
+    self._build_extensions_serial()
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 510, in _build_extensions_serial
+    self.build_extension(ext)
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/command/build_ext.py", line 261, in build_extension
+    _build_ext.build_extension(self, ext)
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 565, in build_extension
+    objects = self.compiler.compile(
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/utils/cpp_extension.py", line 866, in unix_wrap_ninja_compile
+    _write_ninja_file_and_compile_objects(
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/utils/cpp_extension.py", line 2223, in _write_ninja_file_and_compile_objects
+    _run_ninja_build(
+  File "/home/ez48awud/miniconda3/envs/lidiff_hpc/lib/python3.10/site-packages/torch/utils/cpp_extension.py", line 2614, in _run_ninja_build
+    raise RuntimeError(message) from e
+RuntimeError: Error compiling objects for extension

@@ -107,11 +107,8 @@ struct insert_coordinate {
 };
 
 template <typename coordinate_type, typename map_type>
-struct find_coordinate
-    : public thrust::unary_function<uint32_t,
-                                    thrust::pair<uint32_t, uint32_t>> {
+struct find_coordinate {
   using mapped_type = typename map_type::mapped_type;
-  using return_type = thrust::pair<mapped_type, mapped_type>;
 
   find_coordinate(map_type const &_map, coordinate_type const *_d_ptr,
                   mapped_type const unused_element, size_t const _size)
