@@ -42,9 +42,10 @@ python setup.py install --blas=openblas
 
 ## References
 
-This repository is adapted from a version originally modified for **CUDA 12.8**. However, that version did not function correctly in my setup, likely due to the need for root permissions to install OpenBLAS (e.g., using `sudo apt install build-essential python3-dev libopenblas-dev`). Additionally, issues persisted with **nvtx3**, even after following the recommended installation steps.
+This repository is adapted from [CiSong10/MinkowskiEngine](https://github.com/CiSong10/MinkowskiEngine), which was modified for **CUDA 12.8**. However, that version did not function correctly in my setup, likely due to the need for root permissions to install OpenBLAS (e.g., using `sudo apt install build-essential python3-dev libopenblas-dev`). Additionally, issues persisted with **nvtx3**, even after following the recommended installation steps.
 
-The current repository provides an updated configuration intended to resolve both of these issues.
+This repository provides an updated configuration intended to resolve both of these issues.
+
 
 ## Citing Minkowski Engine
 
