@@ -25,7 +25,7 @@ conda install nvidia/label/cuda-13.0.0::cuda-toolkit
 
 ```bash
 git clone https://github.com/AzharSindhi/MinkowskiEngineCuda13.git
-cd MinkowskiEngine
+cd MinkowskiEngineCuda13
 
 # Set CUDA home path and install
 export CUDA_HOME=$CONDA_PREFIX
