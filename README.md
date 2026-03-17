@@ -14,7 +14,7 @@ conda activate mink-cu13
 # Install OpenBLAS
 conda install openblas-devel -c anaconda
 
-# Install PyTorch compatible with CUDA 13.0
+# Install the latest version of PyTorch
 pip install torch torchvision
 
 # (Recommended) Install the CUDA toolkit
