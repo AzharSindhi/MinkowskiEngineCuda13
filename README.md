@@ -15,10 +15,10 @@ conda activate mink-cu13
 conda install openblas-devel -c anaconda
 
 # Install PyTorch compatible with CUDA 13.0
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+pip install torch torchvision
 
-# (Recommended) Install the CUDA 13.0 toolkit
-conda install nvidia/label/cuda-13.0.0::cuda-toolkit
+# (Recommended) Install the CUDA toolkit
+conda install nvidia/label/cuda-{version}::cuda-toolkit
 ```
 
 ### 3. Clone and install MinkowskiEngine
@@ -26,9 +26,6 @@ conda install nvidia/label/cuda-13.0.0::cuda-toolkit
 ```bash
 git clone https://github.com/AzharSindhi/MinkowskiEngineCuda13.git
 cd MinkowskiEngineCuda13
-
-# 2. Add CCCL include paths to CPATH, see issue:
-export CPATH=$CONDA_PREFIX/targets/x86_64-linux/include/cccl:$CONDA_PREFIX/targets/x86_64-linux/include:$CPATH
 
 # Set CUDA home path and install
 export CUDA_HOME=$CONDA_PREFIX
