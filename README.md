@@ -27,6 +27,9 @@ conda install nvidia/label/cuda-13.0.0::cuda-toolkit
 git clone https://github.com/AzharSindhi/MinkowskiEngineCuda13.git
 cd MinkowskiEngineCuda13
 
+# 2. Add CCCL include paths to CPATH, see issue:
+export CPATH=$CONDA_PREFIX/targets/x86_64-linux/include/cccl:$CONDA_PREFIX/targets/x86_64-linux/include:$CPATH
+
 # Set CUDA home path and install
 export CUDA_HOME=$CONDA_PREFIX
 python setup.py install --blas=openblas
